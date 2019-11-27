@@ -3,13 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ACED998980FA2B44263C778 /* AirpotVCConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CD6F23551232024422993 /* AirpotVCConfigurator.swift */; };
+		39873E81382A14F65A9D4A8F /* AirpotVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDA40A5318773C4CA3E0F1 /* AirpotVCInteractor.swift */; };
+		430EFBA7CB39353C17C0DA15 /* AirpotVCInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847120C43F714DF69910E0B0 /* AirpotVCInteractorInput.swift */; };
+		5523E619A9D6B9F1E90B099F /* AirpotVCRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5652C554E95089D3D6DD9 /* AirpotVCRouterInput.swift */; };
+		6ACBED68D1654DF955621DE3 /* AirpotVCModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C316E80947E38A4E92C6A19 /* AirpotVCModuleInput.swift */; };
+		7884E4C27198DF650769B716 /* AirpotVCInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D935FE41E7BC2515BE473 /* AirpotVCInteractorOutput.swift */; };
 		84EC3E50238CCA1D00D05855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E4F238CCA1D00D05855 /* AppDelegate.swift */; };
 		84EC3E52238CCA1D00D05855 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E51238CCA1D00D05855 /* SceneDelegate.swift */; };
-		84EC3E54238CCA1D00D05855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E53238CCA1D00D05855 /* ViewController.swift */; };
 		84EC3E57238CCA1D00D05855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC3E55238CCA1D00D05855 /* Main.storyboard */; };
 		84EC3E5A238CCA1D00D05855 /* AirportLocator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E58238CCA1D00D05855 /* AirportLocator.xcdatamodeld */; };
 		84EC3E5C238CCA1D00D05855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EC3E5B238CCA1D00D05855 /* Assets.xcassets */; };
@@ -18,6 +23,12 @@
 		84EC3E75238CCA1D00D05855 /* AirportLocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E74238CCA1D00D05855 /* AirportLocatorUITests.swift */; };
 		93902A60B78F7CCF26D47AAF /* Pods_AirportLocatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22807496EBFB6E282A00980E /* Pods_AirportLocatorTests.framework */; };
 		AB888AF24EEE17983040BDD3 /* Pods_AirportLocatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC1FA5FF8E60351DC9ADC87 /* Pods_AirportLocatorUITests.framework */; };
+		B3A0C61DAAD9CE2B5B6E751A /* AirpotVCViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54916C23CADD156744A81AA9 /* AirpotVCViewInput.swift */; };
+		C865DACED53F5E1B8FFCC4FB /* AirpotVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F991F3A4917B233566667C8 /* AirpotVCViewController.swift */; };
+		C897F162DB536AD4C3D6CA7B /* AirpotVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF6C0D550A58E09ADD65430 /* AirpotVCPresenter.swift */; };
+		D240895C474B41E519F4AF10 /* AirpotVCInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7A1D4E6CA4446B3F97496 /* AirpotVCInitializer.swift */; };
+		E0184DB63EAA0767F3DF734B /* AirpotVCViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FAEF3F34F1CE9B5B710D6 /* AirpotVCViewOutput.swift */; };
+		F7A1BB408F24A68091904D74 /* AirpotVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE6F7580B6BA743651C057 /* AirpotVCRouter.swift */; };
 		FA707E4E31289083F7431BFB /* Pods_AirportLocator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472D5D20E11902470D6223E0 /* Pods_AirportLocator.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,15 +51,19 @@
 
 /* Begin PBXFileReference section */
 		22807496EBFB6E282A00980E /* Pods_AirportLocatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportLocatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C316E80947E38A4E92C6A19 /* AirpotVCModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCModuleInput.swift; sourceTree = "<group>"; };
 		41A2B2F646D80324AEA5AB4C /* Pods-AirportLocatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocatorTests.release.xcconfig"; path = "Target Support Files/Pods-AirportLocatorTests/Pods-AirportLocatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		472D5D20E11902470D6223E0 /* Pods_AirportLocator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportLocator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5812F6386F1733A7812C69 /* Pods-AirportLocator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocator.debug.xcconfig"; path = "Target Support Files/Pods-AirportLocator/Pods-AirportLocator.debug.xcconfig"; sourceTree = "<group>"; };
+		54916C23CADD156744A81AA9 /* AirpotVCViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCViewInput.swift; sourceTree = "<group>"; };
 		5687070AB5B005A4BC3C808C /* Pods-AirportLocatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-AirportLocatorUITests/Pods-AirportLocatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F991F3A4917B233566667C8 /* AirpotVCViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCViewController.swift; sourceTree = "<group>"; };
 		6DC1FA5FF8E60351DC9ADC87 /* Pods_AirportLocatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportLocatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768CD6F23551232024422993 /* AirpotVCConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCConfigurator.swift; sourceTree = "<group>"; };
+		847120C43F714DF69910E0B0 /* AirpotVCInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCInteractorInput.swift; sourceTree = "<group>"; };
 		84EC3E4C238CCA1D00D05855 /* AirportLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EC3E4F238CCA1D00D05855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EC3E51238CCA1D00D05855 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84EC3E53238CCA1D00D05855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84EC3E56238CCA1D00D05855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84EC3E59238CCA1D00D05855 /* AirportLocator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirportLocator.xcdatamodel; sourceTree = "<group>"; };
 		84EC3E5B238CCA1D00D05855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,8 +75,15 @@
 		84EC3E70238CCA1D00D05855 /* AirportLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EC3E74238CCA1D00D05855 /* AirportLocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportLocatorUITests.swift; sourceTree = "<group>"; };
 		84EC3E76238CCA1D00D05855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904FAEF3F34F1CE9B5B710D6 /* AirpotVCViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCViewOutput.swift; sourceTree = "<group>"; };
+		93B5652C554E95089D3D6DD9 /* AirpotVCRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCRouterInput.swift; sourceTree = "<group>"; };
+		A9E7A1D4E6CA4446B3F97496 /* AirpotVCInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCInitializer.swift; sourceTree = "<group>"; };
 		AB44F5A40E8A270933C7EBCF /* Pods-AirportLocator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocator.release.xcconfig"; path = "Target Support Files/Pods-AirportLocator/Pods-AirportLocator.release.xcconfig"; sourceTree = "<group>"; };
+		BF7D935FE41E7BC2515BE473 /* AirpotVCInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCInteractorOutput.swift; sourceTree = "<group>"; };
+		C4CDA40A5318773C4CA3E0F1 /* AirpotVCInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCInteractor.swift; sourceTree = "<group>"; };
 		C51E25DAE46F4CB5407BCAF4 /* Pods-AirportLocatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocatorUITests.release.xcconfig"; path = "Target Support Files/Pods-AirportLocatorUITests/Pods-AirportLocatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDEE6F7580B6BA743651C057 /* AirpotVCRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCRouter.swift; sourceTree = "<group>"; };
+		DCF6C0D550A58E09ADD65430 /* AirpotVCPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCPresenter.swift; sourceTree = "<group>"; };
 		E1F988AED8BB4BFA370EE331 /* Pods-AirportLocatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocatorTests.debug.xcconfig"; path = "Target Support Files/Pods-AirportLocatorTests/Pods-AirportLocatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +115,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43CC22C9872E735CF59FE6FB /* AirpotVC */ = {
+			isa = PBXGroup;
+			children = (
+				651C63B0AA0C63E7B47292A1 /* View */,
+				FAC13E4975C0CE8E8262A49C /* Presenter */,
+				91DB3CE079B49D1BEC82CCD7 /* Interactor */,
+				CB61291C621605C259C9EAB5 /* Router */,
+				99A72E719CC0F4495FDE85E1 /* Configurator */,
+			);
+			path = AirpotVC;
+			sourceTree = "<group>";
+		};
+		651C63B0AA0C63E7B47292A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54916C23CADD156744A81AA9 /* AirpotVCViewInput.swift */,
+				904FAEF3F34F1CE9B5B710D6 /* AirpotVCViewOutput.swift */,
+				5F991F3A4917B233566667C8 /* AirpotVCViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84A72022238E14010099925B /* DefaultClasses */ = {
+			isa = PBXGroup;
+			children = (
+				84EC3E4F238CCA1D00D05855 /* AppDelegate.swift */,
+				84EC3E51238CCA1D00D05855 /* SceneDelegate.swift */,
+			);
+			path = DefaultClasses;
+			sourceTree = "<group>";
+		};
 		84EC3E43238CCA1D00D05855 = {
 			isa = PBXGroup;
 			children = (
@@ -118,9 +171,8 @@
 		84EC3E4E238CCA1D00D05855 /* AirportLocator */ = {
 			isa = PBXGroup;
 			children = (
-				84EC3E4F238CCA1D00D05855 /* AppDelegate.swift */,
-				84EC3E51238CCA1D00D05855 /* SceneDelegate.swift */,
-				84EC3E53238CCA1D00D05855 /* ViewController.swift */,
+				84A72022238E14010099925B /* DefaultClasses */,
+				43CC22C9872E735CF59FE6FB /* AirpotVC */,
 				84EC3E55238CCA1D00D05855 /* Main.storyboard */,
 				84EC3E5B238CCA1D00D05855 /* Assets.xcassets */,
 				84EC3E5D238CCA1D00D05855 /* LaunchScreen.storyboard */,
@@ -158,8 +210,26 @@
 				5687070AB5B005A4BC3C808C /* Pods-AirportLocatorUITests.debug.xcconfig */,
 				C51E25DAE46F4CB5407BCAF4 /* Pods-AirportLocatorUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		91DB3CE079B49D1BEC82CCD7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				847120C43F714DF69910E0B0 /* AirpotVCInteractorInput.swift */,
+				BF7D935FE41E7BC2515BE473 /* AirpotVCInteractorOutput.swift */,
+				C4CDA40A5318773C4CA3E0F1 /* AirpotVCInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		99A72E719CC0F4495FDE85E1 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				768CD6F23551232024422993 /* AirpotVCConfigurator.swift */,
+				A9E7A1D4E6CA4446B3F97496 /* AirpotVCInitializer.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 		9B3782038D9BB39AB32D9E46 /* Frameworks */ = {
@@ -170,6 +240,24 @@
 				6DC1FA5FF8E60351DC9ADC87 /* Pods_AirportLocatorUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB61291C621605C259C9EAB5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				93B5652C554E95089D3D6DD9 /* AirpotVCRouterInput.swift */,
+				CDEE6F7580B6BA743651C057 /* AirpotVCRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FAC13E4975C0CE8E8262A49C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2C316E80947E38A4E92C6A19 /* AirpotVCModuleInput.swift */,
+				DCF6C0D550A58E09ADD65430 /* AirpotVCPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,9 +482,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EC3E5A238CCA1D00D05855 /* AirportLocator.xcdatamodeld in Sources */,
-				84EC3E54238CCA1D00D05855 /* ViewController.swift in Sources */,
 				84EC3E50238CCA1D00D05855 /* AppDelegate.swift in Sources */,
 				84EC3E52238CCA1D00D05855 /* SceneDelegate.swift in Sources */,
+				B3A0C61DAAD9CE2B5B6E751A /* AirpotVCViewInput.swift in Sources */,
+				E0184DB63EAA0767F3DF734B /* AirpotVCViewOutput.swift in Sources */,
+				C865DACED53F5E1B8FFCC4FB /* AirpotVCViewController.swift in Sources */,
+				6ACBED68D1654DF955621DE3 /* AirpotVCModuleInput.swift in Sources */,
+				C897F162DB536AD4C3D6CA7B /* AirpotVCPresenter.swift in Sources */,
+				430EFBA7CB39353C17C0DA15 /* AirpotVCInteractorInput.swift in Sources */,
+				7884E4C27198DF650769B716 /* AirpotVCInteractorOutput.swift in Sources */,
+				39873E81382A14F65A9D4A8F /* AirpotVCInteractor.swift in Sources */,
+				5523E619A9D6B9F1E90B099F /* AirpotVCRouterInput.swift in Sources */,
+				F7A1BB408F24A68091904D74 /* AirpotVCRouter.swift in Sources */,
+				1ACED998980FA2B44263C778 /* AirpotVCConfigurator.swift in Sources */,
+				D240895C474B41E519F4AF10 /* AirpotVCInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
