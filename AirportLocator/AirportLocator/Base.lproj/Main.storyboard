@@ -14,9 +14,23 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6Nz-iO-Wqg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Nz-iO-Wqg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7FA-9u-t7z"/>
+                            <constraint firstItem="6Nz-iO-Wqg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SUd-5p-7NC"/>
+                            <constraint firstItem="6Nz-iO-Wqg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="W2D-qW-NlQ"/>
+                            <constraint firstAttribute="bottom" secondItem="6Nz-iO-Wqg" secondAttribute="bottom" id="ziD-hJ-zsD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="6Nz-iO-Wqg" id="8D5-WM-Tbe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <customObject id="AQV-kD-nh0" customClass="AirpotVCModuleInitializer" customModule="AirportLocator" customModuleProvider="target">
@@ -25,7 +39,7 @@
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="104" y="90"/>
+            <point key="canvasLocation" x="102.89855072463769" y="89.732142857142847"/>
         </scene>
     </scenes>
 </document>

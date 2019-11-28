@@ -13,6 +13,25 @@
 		5523E619A9D6B9F1E90B099F /* AirpotVCRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5652C554E95089D3D6DD9 /* AirpotVCRouterInput.swift */; };
 		6ACBED68D1654DF955621DE3 /* AirpotVCModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C316E80947E38A4E92C6A19 /* AirpotVCModuleInput.swift */; };
 		7884E4C27198DF650769B716 /* AirpotVCInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D935FE41E7BC2515BE473 /* AirpotVCInteractorOutput.swift */; };
+		84160257238E191900CD7E8B /* Opening_hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416024D238E191800CD7E8B /* Opening_hours.swift */; };
+		84160258238E191900CD7E8B /* Viewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416024E238E191800CD7E8B /* Viewport.swift */; };
+		84160259238E191900CD7E8B /* Plus_code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416024F238E191800CD7E8B /* Plus_code.swift */; };
+		8416025A238E191900CD7E8B /* Northeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160250238E191800CD7E8B /* Northeast.swift */; };
+		8416025B238E191900CD7E8B /* Southwest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160251238E191800CD7E8B /* Southwest.swift */; };
+		8416025C238E191900CD7E8B /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160252238E191800CD7E8B /* Photos.swift */; };
+		8416025D238E191900CD7E8B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160253238E191800CD7E8B /* Location.swift */; };
+		8416025E238E191900CD7E8B /* AirportListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160254238E191800CD7E8B /* AirportListModel.swift */; };
+		8416025F238E191900CD7E8B /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160255238E191800CD7E8B /* Results.swift */; };
+		84160260238E191900CD7E8B /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160256238E191900CD7E8B /* Geometry.swift */; };
+		84160263238E1C8E00CD7E8B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160262238E1C8E00CD7E8B /* DataManager.swift */; };
+		843E6D2D238F6917004392AF /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D2C238F6917004392AF /* UserManager.swift */; };
+		843E6D2F238F6F8D004392AF /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D2E238F6F8D004392AF /* CustomAnnotationView.swift */; };
+		843E6D31238F6F9F004392AF /* CustomAnnotationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D30238F6F9F004392AF /* CustomAnnotationPoint.swift */; };
+		843E6D34238F7650004392AF /* Constatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D33238F7650004392AF /* Constatnts.swift */; };
+		843E6D36238F7931004392AF /* CustomDetailAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D35238F7931004392AF /* CustomDetailAnnotationView.swift */; };
+		843E6D39238F79EA004392AF /* AnnotationDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D37238F79EA004392AF /* AnnotationDetailCell.swift */; };
+		843E6D3A238F79EA004392AF /* AnnotationDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843E6D38238F79EA004392AF /* AnnotationDetailCell.xib */; };
+		843E6D3C238F7BA1004392AF /* CustomDetailAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843E6D3B238F7BA1004392AF /* CustomDetailAnnotationView.xib */; };
 		84EC3E50238CCA1D00D05855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E4F238CCA1D00D05855 /* AppDelegate.swift */; };
 		84EC3E52238CCA1D00D05855 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E51238CCA1D00D05855 /* SceneDelegate.swift */; };
 		84EC3E57238CCA1D00D05855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC3E55238CCA1D00D05855 /* Main.storyboard */; };
@@ -60,6 +79,25 @@
 		5F991F3A4917B233566667C8 /* AirpotVCViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCViewController.swift; sourceTree = "<group>"; };
 		6DC1FA5FF8E60351DC9ADC87 /* Pods_AirportLocatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportLocatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		768CD6F23551232024422993 /* AirpotVCConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCConfigurator.swift; sourceTree = "<group>"; };
+		8416024D238E191800CD7E8B /* Opening_hours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Opening_hours.swift; sourceTree = "<group>"; };
+		8416024E238E191800CD7E8B /* Viewport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewport.swift; sourceTree = "<group>"; };
+		8416024F238E191800CD7E8B /* Plus_code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plus_code.swift; sourceTree = "<group>"; };
+		84160250238E191800CD7E8B /* Northeast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Northeast.swift; sourceTree = "<group>"; };
+		84160251238E191800CD7E8B /* Southwest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Southwest.swift; sourceTree = "<group>"; };
+		84160252238E191800CD7E8B /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		84160253238E191800CD7E8B /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		84160254238E191800CD7E8B /* AirportListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportListModel.swift; sourceTree = "<group>"; };
+		84160255238E191800CD7E8B /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		84160256238E191900CD7E8B /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		84160262238E1C8E00CD7E8B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		843E6D2C238F6917004392AF /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		843E6D2E238F6F8D004392AF /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		843E6D30238F6F9F004392AF /* CustomAnnotationPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationPoint.swift; sourceTree = "<group>"; };
+		843E6D33238F7650004392AF /* Constatnts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatnts.swift; sourceTree = "<group>"; };
+		843E6D35238F7931004392AF /* CustomDetailAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDetailAnnotationView.swift; sourceTree = "<group>"; };
+		843E6D37238F79EA004392AF /* AnnotationDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationDetailCell.swift; sourceTree = "<group>"; };
+		843E6D38238F79EA004392AF /* AnnotationDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnotationDetailCell.xib; sourceTree = "<group>"; };
+		843E6D3B238F7BA1004392AF /* CustomDetailAnnotationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomDetailAnnotationView.xib; sourceTree = "<group>"; };
 		847120C43F714DF69910E0B0 /* AirpotVCInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCInteractorInput.swift; sourceTree = "<group>"; };
 		84EC3E4C238CCA1D00D05855 /* AirportLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EC3E4F238CCA1D00D05855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +175,42 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		84160261238E192000CD7E8B /* NearByairportsModel */ = {
+			isa = PBXGroup;
+			children = (
+				84160256238E191900CD7E8B /* Geometry.swift */,
+				84160254238E191800CD7E8B /* AirportListModel.swift */,
+				84160253238E191800CD7E8B /* Location.swift */,
+				84160250238E191800CD7E8B /* Northeast.swift */,
+				8416024D238E191800CD7E8B /* Opening_hours.swift */,
+				84160252238E191800CD7E8B /* Photos.swift */,
+				8416024F238E191800CD7E8B /* Plus_code.swift */,
+				84160255238E191800CD7E8B /* Results.swift */,
+				84160251238E191800CD7E8B /* Southwest.swift */,
+				8416024E238E191800CD7E8B /* Viewport.swift */,
+			);
+			path = NearByairportsModel;
+			sourceTree = "<group>";
+		};
+		84160264238E1C9B00CD7E8B /* CommonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				84160262238E1C8E00CD7E8B /* DataManager.swift */,
+				843E6D2C238F6917004392AF /* UserManager.swift */,
+				843E6D33238F7650004392AF /* Constatnts.swift */,
+			);
+			path = CommonClasses;
+			sourceTree = "<group>";
+		};
+		843E6D32238F74D4004392AF /* CustomAnnotations */ = {
+			isa = PBXGroup;
+			children = (
+				843E6D2E238F6F8D004392AF /* CustomAnnotationView.swift */,
+				843E6D30238F6F9F004392AF /* CustomAnnotationPoint.swift */,
+			);
+			path = CustomAnnotations;
+			sourceTree = "<group>";
+		};
 		84A72022238E14010099925B /* DefaultClasses */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +218,17 @@
 				84EC3E51238CCA1D00D05855 /* SceneDelegate.swift */,
 			);
 			path = DefaultClasses;
+			sourceTree = "<group>";
+		};
+		84B76A38238FB2FA00F711B8 /* Custom Annotation view */ = {
+			isa = PBXGroup;
+			children = (
+				843E6D35238F7931004392AF /* CustomDetailAnnotationView.swift */,
+				843E6D3B238F7BA1004392AF /* CustomDetailAnnotationView.xib */,
+				843E6D37238F79EA004392AF /* AnnotationDetailCell.swift */,
+				843E6D38238F79EA004392AF /* AnnotationDetailCell.xib */,
+			);
+			path = "Custom Annotation view";
 			sourceTree = "<group>";
 		};
 		84EC3E43238CCA1D00D05855 = {
@@ -173,8 +258,12 @@
 			children = (
 				84A72022238E14010099925B /* DefaultClasses */,
 				43CC22C9872E735CF59FE6FB /* AirpotVC */,
-				84EC3E55238CCA1D00D05855 /* Main.storyboard */,
+				84160261238E192000CD7E8B /* NearByairportsModel */,
+				843E6D32238F74D4004392AF /* CustomAnnotations */,
+				84160264238E1C9B00CD7E8B /* CommonClasses */,
+				84B76A38238FB2FA00F711B8 /* Custom Annotation view */,
 				84EC3E5B238CCA1D00D05855 /* Assets.xcassets */,
+				84EC3E55238CCA1D00D05855 /* Main.storyboard */,
 				84EC3E5D238CCA1D00D05855 /* LaunchScreen.storyboard */,
 				84EC3E60238CCA1D00D05855 /* Info.plist */,
 				84EC3E58238CCA1D00D05855 /* AirportLocator.xcdatamodeld */,
@@ -371,6 +460,8 @@
 				84EC3E5F238CCA1D00D05855 /* LaunchScreen.storyboard in Resources */,
 				84EC3E5C238CCA1D00D05855 /* Assets.xcassets in Resources */,
 				84EC3E57238CCA1D00D05855 /* Main.storyboard in Resources */,
+				843E6D3C238F7BA1004392AF /* CustomDetailAnnotationView.xib in Resources */,
+				843E6D3A238F79EA004392AF /* AnnotationDetailCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,18 +575,35 @@
 				84EC3E5A238CCA1D00D05855 /* AirportLocator.xcdatamodeld in Sources */,
 				84EC3E50238CCA1D00D05855 /* AppDelegate.swift in Sources */,
 				84EC3E52238CCA1D00D05855 /* SceneDelegate.swift in Sources */,
+				843E6D39238F79EA004392AF /* AnnotationDetailCell.swift in Sources */,
 				B3A0C61DAAD9CE2B5B6E751A /* AirpotVCViewInput.swift in Sources */,
 				E0184DB63EAA0767F3DF734B /* AirpotVCViewOutput.swift in Sources */,
 				C865DACED53F5E1B8FFCC4FB /* AirpotVCViewController.swift in Sources */,
+				8416025C238E191900CD7E8B /* Photos.swift in Sources */,
 				6ACBED68D1654DF955621DE3 /* AirpotVCModuleInput.swift in Sources */,
+				843E6D34238F7650004392AF /* Constatnts.swift in Sources */,
 				C897F162DB536AD4C3D6CA7B /* AirpotVCPresenter.swift in Sources */,
+				84160259238E191900CD7E8B /* Plus_code.swift in Sources */,
+				843E6D36238F7931004392AF /* CustomDetailAnnotationView.swift in Sources */,
+				84160258238E191900CD7E8B /* Viewport.swift in Sources */,
+				84160263238E1C8E00CD7E8B /* DataManager.swift in Sources */,
 				430EFBA7CB39353C17C0DA15 /* AirpotVCInteractorInput.swift in Sources */,
+				8416025D238E191900CD7E8B /* Location.swift in Sources */,
+				8416025A238E191900CD7E8B /* Northeast.swift in Sources */,
 				7884E4C27198DF650769B716 /* AirpotVCInteractorOutput.swift in Sources */,
 				39873E81382A14F65A9D4A8F /* AirpotVCInteractor.swift in Sources */,
 				5523E619A9D6B9F1E90B099F /* AirpotVCRouterInput.swift in Sources */,
+				843E6D2D238F6917004392AF /* UserManager.swift in Sources */,
+				8416025E238E191900CD7E8B /* AirportListModel.swift in Sources */,
+				843E6D31238F6F9F004392AF /* CustomAnnotationPoint.swift in Sources */,
+				8416025F238E191900CD7E8B /* Results.swift in Sources */,
 				F7A1BB408F24A68091904D74 /* AirpotVCRouter.swift in Sources */,
+				8416025B238E191900CD7E8B /* Southwest.swift in Sources */,
 				1ACED998980FA2B44263C778 /* AirpotVCConfigurator.swift in Sources */,
+				84160257238E191900CD7E8B /* Opening_hours.swift in Sources */,
 				D240895C474B41E519F4AF10 /* AirpotVCInitializer.swift in Sources */,
+				843E6D2F238F6F8D004392AF /* CustomAnnotationView.swift in Sources */,
+				84160260238E191900CD7E8B /* Geometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,7 +708,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -654,7 +762,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

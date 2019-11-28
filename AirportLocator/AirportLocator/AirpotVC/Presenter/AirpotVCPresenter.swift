@@ -7,12 +7,27 @@
 //
 
 class AirpotVCPresenter: AirpotVCModuleInput, AirpotVCViewOutput, AirpotVCInteractorOutput {
-
+   
+    
     weak var view: AirpotVCViewInput!
     var interactor: AirpotVCInteractorInput!
     var router: AirpotVCRouterInput!
 
     func viewIsReady() {
-
+        self.view.configureMapview()
+        UserManager.shared.isLocationServiceEnabled { (isLocationPermissionAccepted) in
+            if isLocationPermissionAccepted{
+                self.interactor.getNearbyAirports()
+            }
+        }
     }
+    func listOfAirports(airportList: AirportListModel) {
+        self.view.passListofAirpotsToMap(airportList: airportList)
+    }
+    func errorIngettingAirportList() {
+        
+           
+    }
+       
+    
 }

@@ -9,5 +9,6 @@
 import Foundation
 
 protocol AirpotVCInteractorOutput: class {
-
+    func listOfAirports(airportList : AirportListModel)
+    func errorIngettingAirportList()
 }
