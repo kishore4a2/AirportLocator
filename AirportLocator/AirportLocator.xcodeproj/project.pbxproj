@@ -1,0 +1,956 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ACED998980FA2B44263C778 /* AirpotVCConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768CD6F23551232024422993 /* AirpotVCConfigurator.swift */; };
+		39873E81382A14F65A9D4A8F /* AirpotVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDA40A5318773C4CA3E0F1 /* AirpotVCInteractor.swift */; };
+		430EFBA7CB39353C17C0DA15 /* AirpotVCInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847120C43F714DF69910E0B0 /* AirpotVCInteractorInput.swift */; };
+		5523E619A9D6B9F1E90B099F /* AirpotVCRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B5652C554E95089D3D6DD9 /* AirpotVCRouterInput.swift */; };
+		6ACBED68D1654DF955621DE3 /* AirpotVCModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C316E80947E38A4E92C6A19 /* AirpotVCModuleInput.swift */; };
+		7884E4C27198DF650769B716 /* AirpotVCInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D935FE41E7BC2515BE473 /* AirpotVCInteractorOutput.swift */; };
+		84160257238E191900CD7E8B /* Opening_hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416024D238E191800CD7E8B /* Opening_hours.swift */; };
+		84160258238E191900CD7E8B /* Viewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416024E238E191800CD7E8B /* Viewport.swift */; };
+		84160259238E191900CD7E8B /* Plus_code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416024F238E191800CD7E8B /* Plus_code.swift */; };
+		8416025A238E191900CD7E8B /* Northeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160250238E191800CD7E8B /* Northeast.swift */; };
+		8416025B238E191900CD7E8B /* Southwest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160251238E191800CD7E8B /* Southwest.swift */; };
+		8416025C238E191900CD7E8B /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160252238E191800CD7E8B /* Photos.swift */; };
+		8416025D238E191900CD7E8B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160253238E191800CD7E8B /* Location.swift */; };
+		8416025E238E191900CD7E8B /* AirportListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160254238E191800CD7E8B /* AirportListModel.swift */; };
+		8416025F238E191900CD7E8B /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160255238E191800CD7E8B /* Results.swift */; };
+		84160260238E191900CD7E8B /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160256238E191900CD7E8B /* Geometry.swift */; };
+		84160263238E1C8E00CD7E8B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84160262238E1C8E00CD7E8B /* DataManager.swift */; };
+		843E6D2D238F6917004392AF /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D2C238F6917004392AF /* UserManager.swift */; };
+		843E6D2F238F6F8D004392AF /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D2E238F6F8D004392AF /* CustomAnnotationView.swift */; };
+		843E6D31238F6F9F004392AF /* CustomAnnotationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D30238F6F9F004392AF /* CustomAnnotationPoint.swift */; };
+		843E6D34238F7650004392AF /* Constatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D33238F7650004392AF /* Constatnts.swift */; };
+		843E6D36238F7931004392AF /* CustomDetailAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D35238F7931004392AF /* CustomDetailAnnotationView.swift */; };
+		843E6D39238F79EA004392AF /* AnnotationDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E6D37238F79EA004392AF /* AnnotationDetailCell.swift */; };
+		843E6D3A238F79EA004392AF /* AnnotationDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843E6D38238F79EA004392AF /* AnnotationDetailCell.xib */; };
+		843E6D3C238F7BA1004392AF /* CustomDetailAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843E6D3B238F7BA1004392AF /* CustomDetailAnnotationView.xib */; };
+		84EC3E50238CCA1D00D05855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E4F238CCA1D00D05855 /* AppDelegate.swift */; };
+		84EC3E52238CCA1D00D05855 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E51238CCA1D00D05855 /* SceneDelegate.swift */; };
+		84EC3E57238CCA1D00D05855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC3E55238CCA1D00D05855 /* Main.storyboard */; };
+		84EC3E5A238CCA1D00D05855 /* AirportLocator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E58238CCA1D00D05855 /* AirportLocator.xcdatamodeld */; };
+		84EC3E5C238CCA1D00D05855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EC3E5B238CCA1D00D05855 /* Assets.xcassets */; };
+		84EC3E5F238CCA1D00D05855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC3E5D238CCA1D00D05855 /* LaunchScreen.storyboard */; };
+		84EC3E6A238CCA1D00D05855 /* AirportLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E69238CCA1D00D05855 /* AirportLocatorTests.swift */; };
+		84EC3E75238CCA1D00D05855 /* AirportLocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3E74238CCA1D00D05855 /* AirportLocatorUITests.swift */; };
+		93902A60B78F7CCF26D47AAF /* Pods_AirportLocatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22807496EBFB6E282A00980E /* Pods_AirportLocatorTests.framework */; };
+		AB888AF24EEE17983040BDD3 /* Pods_AirportLocatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC1FA5FF8E60351DC9ADC87 /* Pods_AirportLocatorUITests.framework */; };
+		B3A0C61DAAD9CE2B5B6E751A /* AirpotVCViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54916C23CADD156744A81AA9 /* AirpotVCViewInput.swift */; };
+		C865DACED53F5E1B8FFCC4FB /* AirpotVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F991F3A4917B233566667C8 /* AirpotVCViewController.swift */; };
+		C897F162DB536AD4C3D6CA7B /* AirpotVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF6C0D550A58E09ADD65430 /* AirpotVCPresenter.swift */; };
+		D240895C474B41E519F4AF10 /* AirpotVCInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7A1D4E6CA4446B3F97496 /* AirpotVCInitializer.swift */; };
+		E0184DB63EAA0767F3DF734B /* AirpotVCViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FAEF3F34F1CE9B5B710D6 /* AirpotVCViewOutput.swift */; };
+		F7A1BB408F24A68091904D74 /* AirpotVCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE6F7580B6BA743651C057 /* AirpotVCRouter.swift */; };
+		FA707E4E31289083F7431BFB /* Pods_AirportLocator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472D5D20E11902470D6223E0 /* Pods_AirportLocator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84EC3E66238CCA1D00D05855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EC3E44238CCA1D00D05855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EC3E4B238CCA1D00D05855;
+			remoteInfo = AirportLocator;
+		};
+		84EC3E71238CCA1D00D05855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EC3E44238CCA1D00D05855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EC3E4B238CCA1D00D05855;
+			remoteInfo = AirportLocator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22807496EBFB6E282A00980E /* Pods_AirportLocatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportLocatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C316E80947E38A4E92C6A19 /* AirpotVCModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCModuleInput.swift; sourceTree = "<group>"; };
+		41A2B2F646D80324AEA5AB4C /* Pods-AirportLocatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocatorTests.release.xcconfig"; path = "Target Support Files/Pods-AirportLocatorTests/Pods-AirportLocatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		472D5D20E11902470D6223E0 /* Pods_AirportLocator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportLocator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5812F6386F1733A7812C69 /* Pods-AirportLocator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocator.debug.xcconfig"; path = "Target Support Files/Pods-AirportLocator/Pods-AirportLocator.debug.xcconfig"; sourceTree = "<group>"; };
+		54916C23CADD156744A81AA9 /* AirpotVCViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCViewInput.swift; sourceTree = "<group>"; };
+		5687070AB5B005A4BC3C808C /* Pods-AirportLocatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-AirportLocatorUITests/Pods-AirportLocatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F991F3A4917B233566667C8 /* AirpotVCViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCViewController.swift; sourceTree = "<group>"; };
+		6DC1FA5FF8E60351DC9ADC87 /* Pods_AirportLocatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportLocatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768CD6F23551232024422993 /* AirpotVCConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCConfigurator.swift; sourceTree = "<group>"; };
+		8416024D238E191800CD7E8B /* Opening_hours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Opening_hours.swift; sourceTree = "<group>"; };
+		8416024E238E191800CD7E8B /* Viewport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewport.swift; sourceTree = "<group>"; };
+		8416024F238E191800CD7E8B /* Plus_code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plus_code.swift; sourceTree = "<group>"; };
+		84160250238E191800CD7E8B /* Northeast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Northeast.swift; sourceTree = "<group>"; };
+		84160251238E191800CD7E8B /* Southwest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Southwest.swift; sourceTree = "<group>"; };
+		84160252238E191800CD7E8B /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		84160253238E191800CD7E8B /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		84160254238E191800CD7E8B /* AirportListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportListModel.swift; sourceTree = "<group>"; };
+		84160255238E191800CD7E8B /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		84160256238E191900CD7E8B /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		84160262238E1C8E00CD7E8B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		843E6D2C238F6917004392AF /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		843E6D2E238F6F8D004392AF /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		843E6D30238F6F9F004392AF /* CustomAnnotationPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationPoint.swift; sourceTree = "<group>"; };
+		843E6D33238F7650004392AF /* Constatnts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatnts.swift; sourceTree = "<group>"; };
+		843E6D35238F7931004392AF /* CustomDetailAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDetailAnnotationView.swift; sourceTree = "<group>"; };
+		843E6D37238F79EA004392AF /* AnnotationDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationDetailCell.swift; sourceTree = "<group>"; };
+		843E6D38238F79EA004392AF /* AnnotationDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnotationDetailCell.xib; sourceTree = "<group>"; };
+		843E6D3B238F7BA1004392AF /* CustomDetailAnnotationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomDetailAnnotationView.xib; sourceTree = "<group>"; };
+		847120C43F714DF69910E0B0 /* AirpotVCInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCInteractorInput.swift; sourceTree = "<group>"; };
+		84EC3E4C238CCA1D00D05855 /* AirportLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EC3E4F238CCA1D00D05855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84EC3E51238CCA1D00D05855 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84EC3E56238CCA1D00D05855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EC3E59238CCA1D00D05855 /* AirportLocator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirportLocator.xcdatamodel; sourceTree = "<group>"; };
+		84EC3E5B238CCA1D00D05855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EC3E5E238CCA1D00D05855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EC3E60238CCA1D00D05855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EC3E65238CCA1D00D05855 /* AirportLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EC3E69238CCA1D00D05855 /* AirportLocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportLocatorTests.swift; sourceTree = "<group>"; };
+		84EC3E6B238CCA1D00D05855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EC3E70238CCA1D00D05855 /* AirportLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EC3E74238CCA1D00D05855 /* AirportLocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportLocatorUITests.swift; sourceTree = "<group>"; };
+		84EC3E76238CCA1D00D05855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904FAEF3F34F1CE9B5B710D6 /* AirpotVCViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCViewOutput.swift; sourceTree = "<group>"; };
+		93B5652C554E95089D3D6DD9 /* AirpotVCRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCRouterInput.swift; sourceTree = "<group>"; };
+		A9E7A1D4E6CA4446B3F97496 /* AirpotVCInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCInitializer.swift; sourceTree = "<group>"; };
+		AB44F5A40E8A270933C7EBCF /* Pods-AirportLocator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocator.release.xcconfig"; path = "Target Support Files/Pods-AirportLocator/Pods-AirportLocator.release.xcconfig"; sourceTree = "<group>"; };
+		BF7D935FE41E7BC2515BE473 /* AirpotVCInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCInteractorOutput.swift; sourceTree = "<group>"; };
+		C4CDA40A5318773C4CA3E0F1 /* AirpotVCInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCInteractor.swift; sourceTree = "<group>"; };
+		C51E25DAE46F4CB5407BCAF4 /* Pods-AirportLocatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocatorUITests.release.xcconfig"; path = "Target Support Files/Pods-AirportLocatorUITests/Pods-AirportLocatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDEE6F7580B6BA743651C057 /* AirpotVCRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCRouter.swift; sourceTree = "<group>"; };
+		DCF6C0D550A58E09ADD65430 /* AirpotVCPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AirpotVCPresenter.swift; sourceTree = "<group>"; };
+		E1F988AED8BB4BFA370EE331 /* Pods-AirportLocatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportLocatorTests.debug.xcconfig"; path = "Target Support Files/Pods-AirportLocatorTests/Pods-AirportLocatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EC3E49238CCA1D00D05855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA707E4E31289083F7431BFB /* Pods_AirportLocator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EC3E62238CCA1D00D05855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93902A60B78F7CCF26D47AAF /* Pods_AirportLocatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EC3E6D238CCA1D00D05855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB888AF24EEE17983040BDD3 /* Pods_AirportLocatorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43CC22C9872E735CF59FE6FB /* AirpotVC */ = {
+			isa = PBXGroup;
+			children = (
+				651C63B0AA0C63E7B47292A1 /* View */,
+				FAC13E4975C0CE8E8262A49C /* Presenter */,
+				91DB3CE079B49D1BEC82CCD7 /* Interactor */,
+				CB61291C621605C259C9EAB5 /* Router */,
+				99A72E719CC0F4495FDE85E1 /* Configurator */,
+			);
+			path = AirpotVC;
+			sourceTree = "<group>";
+		};
+		651C63B0AA0C63E7B47292A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54916C23CADD156744A81AA9 /* AirpotVCViewInput.swift */,
+				904FAEF3F34F1CE9B5B710D6 /* AirpotVCViewOutput.swift */,
+				5F991F3A4917B233566667C8 /* AirpotVCViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84160261238E192000CD7E8B /* NearByairportsModel */ = {
+			isa = PBXGroup;
+			children = (
+				84160256238E191900CD7E8B /* Geometry.swift */,
+				84160254238E191800CD7E8B /* AirportListModel.swift */,
+				84160253238E191800CD7E8B /* Location.swift */,
+				84160250238E191800CD7E8B /* Northeast.swift */,
+				8416024D238E191800CD7E8B /* Opening_hours.swift */,
+				84160252238E191800CD7E8B /* Photos.swift */,
+				8416024F238E191800CD7E8B /* Plus_code.swift */,
+				84160255238E191800CD7E8B /* Results.swift */,
+				84160251238E191800CD7E8B /* Southwest.swift */,
+				8416024E238E191800CD7E8B /* Viewport.swift */,
+			);
+			path = NearByairportsModel;
+			sourceTree = "<group>";
+		};
+		84160264238E1C9B00CD7E8B /* CommonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				84160262238E1C8E00CD7E8B /* DataManager.swift */,
+				843E6D2C238F6917004392AF /* UserManager.swift */,
+				843E6D33238F7650004392AF /* Constatnts.swift */,
+			);
+			path = CommonClasses;
+			sourceTree = "<group>";
+		};
+		843E6D32238F74D4004392AF /* CustomAnnotations */ = {
+			isa = PBXGroup;
+			children = (
+				843E6D2E238F6F8D004392AF /* CustomAnnotationView.swift */,
+				843E6D30238F6F9F004392AF /* CustomAnnotationPoint.swift */,
+			);
+			path = CustomAnnotations;
+			sourceTree = "<group>";
+		};
+		84A72022238E14010099925B /* DefaultClasses */ = {
+			isa = PBXGroup;
+			children = (
+				84EC3E4F238CCA1D00D05855 /* AppDelegate.swift */,
+				84EC3E51238CCA1D00D05855 /* SceneDelegate.swift */,
+			);
+			path = DefaultClasses;
+			sourceTree = "<group>";
+		};
+		84B76A38238FB2FA00F711B8 /* Custom Annotation view */ = {
+			isa = PBXGroup;
+			children = (
+				843E6D35238F7931004392AF /* CustomDetailAnnotationView.swift */,
+				843E6D3B238F7BA1004392AF /* CustomDetailAnnotationView.xib */,
+				843E6D37238F79EA004392AF /* AnnotationDetailCell.swift */,
+				843E6D38238F79EA004392AF /* AnnotationDetailCell.xib */,
+			);
+			path = "Custom Annotation view";
+			sourceTree = "<group>";
+		};
+		84EC3E43238CCA1D00D05855 = {
+			isa = PBXGroup;
+			children = (
+				84EC3E4E238CCA1D00D05855 /* AirportLocator */,
+				84EC3E68238CCA1D00D05855 /* AirportLocatorTests */,
+				84EC3E73238CCA1D00D05855 /* AirportLocatorUITests */,
+				84EC3E4D238CCA1D00D05855 /* Products */,
+				8C5E66C2CCC1319DA6A138D7 /* Pods */,
+				9B3782038D9BB39AB32D9E46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84EC3E4D238CCA1D00D05855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EC3E4C238CCA1D00D05855 /* AirportLocator.app */,
+				84EC3E65238CCA1D00D05855 /* AirportLocatorTests.xctest */,
+				84EC3E70238CCA1D00D05855 /* AirportLocatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EC3E4E238CCA1D00D05855 /* AirportLocator */ = {
+			isa = PBXGroup;
+			children = (
+				84A72022238E14010099925B /* DefaultClasses */,
+				43CC22C9872E735CF59FE6FB /* AirpotVC */,
+				84160261238E192000CD7E8B /* NearByairportsModel */,
+				843E6D32238F74D4004392AF /* CustomAnnotations */,
+				84160264238E1C9B00CD7E8B /* CommonClasses */,
+				84B76A38238FB2FA00F711B8 /* Custom Annotation view */,
+				84EC3E5B238CCA1D00D05855 /* Assets.xcassets */,
+				84EC3E55238CCA1D00D05855 /* Main.storyboard */,
+				84EC3E5D238CCA1D00D05855 /* LaunchScreen.storyboard */,
+				84EC3E60238CCA1D00D05855 /* Info.plist */,
+				84EC3E58238CCA1D00D05855 /* AirportLocator.xcdatamodeld */,
+			);
+			path = AirportLocator;
+			sourceTree = "<group>";
+		};
+		84EC3E68238CCA1D00D05855 /* AirportLocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				84EC3E69238CCA1D00D05855 /* AirportLocatorTests.swift */,
+				84EC3E6B238CCA1D00D05855 /* Info.plist */,
+			);
+			path = AirportLocatorTests;
+			sourceTree = "<group>";
+		};
+		84EC3E73238CCA1D00D05855 /* AirportLocatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84EC3E74238CCA1D00D05855 /* AirportLocatorUITests.swift */,
+				84EC3E76238CCA1D00D05855 /* Info.plist */,
+			);
+			path = AirportLocatorUITests;
+			sourceTree = "<group>";
+		};
+		8C5E66C2CCC1319DA6A138D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F5812F6386F1733A7812C69 /* Pods-AirportLocator.debug.xcconfig */,
+				AB44F5A40E8A270933C7EBCF /* Pods-AirportLocator.release.xcconfig */,
+				E1F988AED8BB4BFA370EE331 /* Pods-AirportLocatorTests.debug.xcconfig */,
+				41A2B2F646D80324AEA5AB4C /* Pods-AirportLocatorTests.release.xcconfig */,
+				5687070AB5B005A4BC3C808C /* Pods-AirportLocatorUITests.debug.xcconfig */,
+				C51E25DAE46F4CB5407BCAF4 /* Pods-AirportLocatorUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91DB3CE079B49D1BEC82CCD7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				847120C43F714DF69910E0B0 /* AirpotVCInteractorInput.swift */,
+				BF7D935FE41E7BC2515BE473 /* AirpotVCInteractorOutput.swift */,
+				C4CDA40A5318773C4CA3E0F1 /* AirpotVCInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		99A72E719CC0F4495FDE85E1 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				768CD6F23551232024422993 /* AirpotVCConfigurator.swift */,
+				A9E7A1D4E6CA4446B3F97496 /* AirpotVCInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		9B3782038D9BB39AB32D9E46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				472D5D20E11902470D6223E0 /* Pods_AirportLocator.framework */,
+				22807496EBFB6E282A00980E /* Pods_AirportLocatorTests.framework */,
+				6DC1FA5FF8E60351DC9ADC87 /* Pods_AirportLocatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB61291C621605C259C9EAB5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				93B5652C554E95089D3D6DD9 /* AirpotVCRouterInput.swift */,
+				CDEE6F7580B6BA743651C057 /* AirpotVCRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FAC13E4975C0CE8E8262A49C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2C316E80947E38A4E92C6A19 /* AirpotVCModuleInput.swift */,
+				DCF6C0D550A58E09ADD65430 /* AirpotVCPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EC3E4B238CCA1D00D05855 /* AirportLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EC3E79238CCA1D00D05855 /* Build configuration list for PBXNativeTarget "AirportLocator" */;
+			buildPhases = (
+				74A675606796896AB38CDCD3 /* [CP] Check Pods Manifest.lock */,
+				84EC3E48238CCA1D00D05855 /* Sources */,
+				84EC3E49238CCA1D00D05855 /* Frameworks */,
+				84EC3E4A238CCA1D00D05855 /* Resources */,
+				8DF2D54BE6DD4BB41763CA5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirportLocator;
+			productName = AirportLocator;
+			productReference = 84EC3E4C238CCA1D00D05855 /* AirportLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84EC3E64238CCA1D00D05855 /* AirportLocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EC3E7C238CCA1D00D05855 /* Build configuration list for PBXNativeTarget "AirportLocatorTests" */;
+			buildPhases = (
+				65F61236B3444887D3FC585B /* [CP] Check Pods Manifest.lock */,
+				84EC3E61238CCA1D00D05855 /* Sources */,
+				84EC3E62238CCA1D00D05855 /* Frameworks */,
+				84EC3E63238CCA1D00D05855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EC3E67238CCA1D00D05855 /* PBXTargetDependency */,
+			);
+			name = AirportLocatorTests;
+			productName = AirportLocatorTests;
+			productReference = 84EC3E65238CCA1D00D05855 /* AirportLocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84EC3E6F238CCA1D00D05855 /* AirportLocatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EC3E7F238CCA1D00D05855 /* Build configuration list for PBXNativeTarget "AirportLocatorUITests" */;
+			buildPhases = (
+				E4B83F77B56C12D8E8F3DF85 /* [CP] Check Pods Manifest.lock */,
+				84EC3E6C238CCA1D00D05855 /* Sources */,
+				84EC3E6D238CCA1D00D05855 /* Frameworks */,
+				84EC3E6E238CCA1D00D05855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EC3E72238CCA1D00D05855 /* PBXTargetDependency */,
+			);
+			name = AirportLocatorUITests;
+			productName = AirportLocatorUITests;
+			productReference = 84EC3E70238CCA1D00D05855 /* AirportLocatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EC3E44238CCA1D00D05855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84EC3E4B238CCA1D00D05855 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					84EC3E64238CCA1D00D05855 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 84EC3E4B238CCA1D00D05855;
+					};
+					84EC3E6F238CCA1D00D05855 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 84EC3E4B238CCA1D00D05855;
+					};
+				};
+			};
+			buildConfigurationList = 84EC3E47238CCA1D00D05855 /* Build configuration list for PBXProject "AirportLocator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EC3E43238CCA1D00D05855;
+			productRefGroup = 84EC3E4D238CCA1D00D05855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EC3E4B238CCA1D00D05855 /* AirportLocator */,
+				84EC3E64238CCA1D00D05855 /* AirportLocatorTests */,
+				84EC3E6F238CCA1D00D05855 /* AirportLocatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EC3E4A238CCA1D00D05855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EC3E5F238CCA1D00D05855 /* LaunchScreen.storyboard in Resources */,
+				84EC3E5C238CCA1D00D05855 /* Assets.xcassets in Resources */,
+				84EC3E57238CCA1D00D05855 /* Main.storyboard in Resources */,
+				843E6D3C238F7BA1004392AF /* CustomDetailAnnotationView.xib in Resources */,
+				843E6D3A238F79EA004392AF /* AnnotationDetailCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EC3E63238CCA1D00D05855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EC3E6E238CCA1D00D05855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65F61236B3444887D3FC585B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirportLocatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A675606796896AB38CDCD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirportLocator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF2D54BE6DD4BB41763CA5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirportLocator/Pods-AirportLocator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirportLocator/Pods-AirportLocator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirportLocator/Pods-AirportLocator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B83F77B56C12D8E8F3DF85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirportLocatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EC3E48238CCA1D00D05855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EC3E5A238CCA1D00D05855 /* AirportLocator.xcdatamodeld in Sources */,
+				84EC3E50238CCA1D00D05855 /* AppDelegate.swift in Sources */,
+				84EC3E52238CCA1D00D05855 /* SceneDelegate.swift in Sources */,
+				843E6D39238F79EA004392AF /* AnnotationDetailCell.swift in Sources */,
+				B3A0C61DAAD9CE2B5B6E751A /* AirpotVCViewInput.swift in Sources */,
+				E0184DB63EAA0767F3DF734B /* AirpotVCViewOutput.swift in Sources */,
+				C865DACED53F5E1B8FFCC4FB /* AirpotVCViewController.swift in Sources */,
+				8416025C238E191900CD7E8B /* Photos.swift in Sources */,
+				6ACBED68D1654DF955621DE3 /* AirpotVCModuleInput.swift in Sources */,
+				843E6D34238F7650004392AF /* Constatnts.swift in Sources */,
+				C897F162DB536AD4C3D6CA7B /* AirpotVCPresenter.swift in Sources */,
+				84160259238E191900CD7E8B /* Plus_code.swift in Sources */,
+				843E6D36238F7931004392AF /* CustomDetailAnnotationView.swift in Sources */,
+				84160258238E191900CD7E8B /* Viewport.swift in Sources */,
+				84160263238E1C8E00CD7E8B /* DataManager.swift in Sources */,
+				430EFBA7CB39353C17C0DA15 /* AirpotVCInteractorInput.swift in Sources */,
+				8416025D238E191900CD7E8B /* Location.swift in Sources */,
+				8416025A238E191900CD7E8B /* Northeast.swift in Sources */,
+				7884E4C27198DF650769B716 /* AirpotVCInteractorOutput.swift in Sources */,
+				39873E81382A14F65A9D4A8F /* AirpotVCInteractor.swift in Sources */,
+				5523E619A9D6B9F1E90B099F /* AirpotVCRouterInput.swift in Sources */,
+				843E6D2D238F6917004392AF /* UserManager.swift in Sources */,
+				8416025E238E191900CD7E8B /* AirportListModel.swift in Sources */,
+				843E6D31238F6F9F004392AF /* CustomAnnotationPoint.swift in Sources */,
+				8416025F238E191900CD7E8B /* Results.swift in Sources */,
+				F7A1BB408F24A68091904D74 /* AirpotVCRouter.swift in Sources */,
+				8416025B238E191900CD7E8B /* Southwest.swift in Sources */,
+				1ACED998980FA2B44263C778 /* AirpotVCConfigurator.swift in Sources */,
+				84160257238E191900CD7E8B /* Opening_hours.swift in Sources */,
+				D240895C474B41E519F4AF10 /* AirpotVCInitializer.swift in Sources */,
+				843E6D2F238F6F8D004392AF /* CustomAnnotationView.swift in Sources */,
+				84160260238E191900CD7E8B /* Geometry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EC3E61238CCA1D00D05855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EC3E6A238CCA1D00D05855 /* AirportLocatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EC3E6C238CCA1D00D05855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EC3E75238CCA1D00D05855 /* AirportLocatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84EC3E67238CCA1D00D05855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EC3E4B238CCA1D00D05855 /* AirportLocator */;
+			targetProxy = 84EC3E66238CCA1D00D05855 /* PBXContainerItemProxy */;
+		};
+		84EC3E72238CCA1D00D05855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EC3E4B238CCA1D00D05855 /* AirportLocator */;
+			targetProxy = 84EC3E71238CCA1D00D05855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84EC3E55238CCA1D00D05855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EC3E56238CCA1D00D05855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84EC3E5D238CCA1D00D05855 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EC3E5E238CCA1D00D05855 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EC3E77238CCA1D00D05855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84EC3E78238CCA1D00D05855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84EC3E7A238CCA1D00D05855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5812F6386F1733A7812C69 /* Pods-AirportLocator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4FS3BZ4T8;
+				INFOPLIST_FILE = AirportLocator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kishore.AirportLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84EC3E7B238CCA1D00D05855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB44F5A40E8A270933C7EBCF /* Pods-AirportLocator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4FS3BZ4T8;
+				INFOPLIST_FILE = AirportLocator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kishore.AirportLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84EC3E7D238CCA1D00D05855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F988AED8BB4BFA370EE331 /* Pods-AirportLocatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4FS3BZ4T8;
+				INFOPLIST_FILE = AirportLocatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kishore.AirportLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirportLocator.app/AirportLocator";
+			};
+			name = Debug;
+		};
+		84EC3E7E238CCA1D00D05855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A2B2F646D80324AEA5AB4C /* Pods-AirportLocatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4FS3BZ4T8;
+				INFOPLIST_FILE = AirportLocatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kishore.AirportLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirportLocator.app/AirportLocator";
+			};
+			name = Release;
+		};
+		84EC3E80238CCA1D00D05855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5687070AB5B005A4BC3C808C /* Pods-AirportLocatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4FS3BZ4T8;
+				INFOPLIST_FILE = AirportLocatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kishore.AirportLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirportLocator;
+			};
+			name = Debug;
+		};
+		84EC3E81238CCA1D00D05855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51E25DAE46F4CB5407BCAF4 /* Pods-AirportLocatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4FS3BZ4T8;
+				INFOPLIST_FILE = AirportLocatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kishore.AirportLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirportLocator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EC3E47238CCA1D00D05855 /* Build configuration list for PBXProject "AirportLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EC3E77238CCA1D00D05855 /* Debug */,
+				84EC3E78238CCA1D00D05855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EC3E79238CCA1D00D05855 /* Build configuration list for PBXNativeTarget "AirportLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EC3E7A238CCA1D00D05855 /* Debug */,
+				84EC3E7B238CCA1D00D05855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EC3E7C238CCA1D00D05855 /* Build configuration list for PBXNativeTarget "AirportLocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EC3E7D238CCA1D00D05855 /* Debug */,
+				84EC3E7E238CCA1D00D05855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EC3E7F238CCA1D00D05855 /* Build configuration list for PBXNativeTarget "AirportLocatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EC3E80238CCA1D00D05855 /* Debug */,
+				84EC3E81238CCA1D00D05855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84EC3E58238CCA1D00D05855 /* AirportLocator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84EC3E59238CCA1D00D05855 /* AirportLocator.xcdatamodel */,
+			);
+			currentVersion = 84EC3E59238CCA1D00D05855 /* AirportLocator.xcdatamodel */;
+			path = AirportLocator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84EC3E44238CCA1D00D05855 /* Project object */;
+}

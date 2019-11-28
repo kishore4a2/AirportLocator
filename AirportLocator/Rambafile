@@ -1,0 +1,25 @@
+### Headers settings
+company: AirportLocator
+
+### Xcode project settings
+project_name: AirportLocator
+xcodeproj_path: AirportLocator.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: AirportLocator
+
+# The file path for new modules
+project_file_path: /AirportLocator
+
+# The Xcode group path to new modules
+project_group_path: /AirportLocator
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}
